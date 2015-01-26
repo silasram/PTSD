@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Post-Traumatic Stress Disorder</title>
+    
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  </head>
+  <body>
+  	<!--SPLASH PAGE-->  
+  	<div data-role="page" data-theme="b" style="vertical-align:middle; text-align:center">
+      <div data-role="content">
+      <a href="#home" data-transition="slide">
+      <img src="images/index.jpg" />
+      <h3>Enter</h3>
+      </a>		
+      </div>
+    </div>	
+  
+  	<!--HOME PAGE-->
+    <div data-role="page" id="home" data-title="Post-Traumatic Stress Disorder" data-theme="b">
+      	<div data-role="header" style="vertical-align:middle; text-align:center">
+			<img src="images/header2.jpg" />		
+			<h2>Guide to PTSD, including symptoms, treatments, and what you can do....</h2>
+			
+    		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+		</div>
+  	  	<p></p>
+    	<div data-role="content">
+		<ul data-role="listview" data-theme="a">
+			<li><a href="#professionals" data-transition="flip">
+				<img src="images/professional2.jpg" />
+				<h3>Access Professionals</h3>
+				<p>We have over professionals working in over different specialities to cater to your needs. We wish to make you comfortable in every way we can.</p>
+				</a>
+				<a href="#professionals" data-transition="flip"></a>
+			</li>
+			<li><a href="#questionaire" data-transition="flip">
+				<img src="images/surveyform.jpg"/>
+				<h3>Questionaires</h3>
+				<p>Let us know your history by taking a quick survey questionaire.</p>
+				</a>
+				<a href="#questionaire" data-transition="flip"></a>
+			</li>
+			<li><a href="#treatment" data-transition="flip">
+				<img src="images/treatment.jpg"/>
+				<h3>Treatment</h3>
+				<p>We consider it our prime responsibility to provide high quality care to all our patients. 
+				  Putting the patient under expert diagnoses, treatment plans, enhanced protocols to render them the most appropriate treatment.</p>
+				</a>
+				<a href="#treatment" data-transition="flip"></a>
+			</li>						
+		</ul>		
+    	</div>
+  	
+        <div data-role="footer" data-position="fixed">
+    		<nav data-role="navbar">
+              <ul>
+                  <li><a href="home" data-icon="home">Home</a></li>
+                  <li><a href="help" data-icon="star">Help</a></li>
+                  <li><a href="#" data-icon="info">Information</a></li>		
+              </ul>
+        	</nav>
+    	</div>
+	</div><!-- /page -->
+	
+	<!--Professionals PAGE-->
+    <div data-role="page" id="professionals" data-title="Post-Traumatic Stress Disorder" data-theme="b">
+      	<div data-role="header" style="vertical-align:middle; text-align:center">
+			
+    		<img src="images/header2.jpg" />
+			<h2>Access Professionals</h2>
+			
+    		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+		</div>
+  	  	<p></p>
+    	<div data-role="content">
+		<ul data-role="listview" data-theme="a">
+			<li><a href="#">
+				<h3>Onboard Professionals</h3>
+				<p></p>
+				</a><a href="#professionals" data-rel="popup" data-position-to="window" data-transition="pop"></a>
+			</li>
+			<li><a href="#">
+				<h3>Charities</h3>
+				<p></p>
+				</a><a href="#questionaires" data-rel="popup" data-position-to="window" data-transition="pop"></a>
+			</li>
+			<li><a href="#">
+				<h3>What is a profressional?</h3>
+				<p></p>
+				</a><a href="#treatment" data-rel="popup" data-position-to="window" data-transition="pop"></a>
+			</li>						
+		</ul>		
+    	</div>
+  	
+        <div data-role="footer" data-position="fixed">
+    		<nav data-role="navbar">
+              <ul>
+                  <li><a href="home" data-icon="home">Home</a></li>
+                  <li><a href="help" data-icon="star">Help</a></li>
+                  <li><a href="#" data-icon="info">Information</a></li>		
+              </ul>
+        	</nav>
+    	</div>
+	</div><!-- /page -->	
+	
+	<!--Questionaire PAGE-->
+    <div data-role="page" id="questionaire" data-title="Post-Traumatic Stress Disorder" data-theme="b">
+      	<div data-role="header" style="vertical-align:middle; text-align:center">
+			
+    		<img src="images/header2.jpg" />
+			<h2>Questionaire</h2>
+			
+    		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+		</div>
+  	  	<p></p>
+    	<div data-role="content">
+		<ul data-role="listview" data-theme="a">
+			<li><a href="#">
+				<h3>PTSD</h3>
+				<p></p>
+				</a><a href="#professionals" data-rel="popup" data-position-to="window" data-transition="pop"></a>
+			</li>
+			<li><a href="#">
+				<h3>Well-Being</h3>
+				<p></p>
+				</a><a href="#questionaires" data-rel="popup" data-position-to="window" data-transition="pop"></a>
+			</li>
+			<li><a href="#">
+				<h3>Coping</h3>
+				<p></p>
+				</a><a href="#treatment" data-rel="popup" data-position-to="window" data-transition="pop"></a>
+			</li>			
+			<li><a href="#">
+				<h3>Life Events</h3>
+				<p></p>
+				</a><a href="#treatment" data-rel="popup" data-position-to="window" data-transition="pop"></a>
+			</li>								
+		</ul>		
+    	</div>
+  	
+        <div data-role="footer" data-position="fixed">
+    		<nav data-role="navbar">
+              <ul>
+                  <li><a href="home" data-icon="home">Home</a></li>
+                  <li><a href="help" data-icon="star">Help</a></li>
+                  <li><a href="#" data-icon="info">Information</a></li>		
+              </ul>
+        	</nav>
+    	</div>
+	</div><!-- /page -->	
+	
+	<!--Treatment PAGE-->
+    <div data-role="page" id="treatment" data-title="Post-Traumatic Stress Disorder" data-theme="b">
+      	<div data-role="header" style="vertical-align:middle; text-align:center">
+			
+    		<img src="images/header2.jpg" />
+			<h2>Treatment Options</h2>
+			
+    		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+		</div>
+  	  	<p></p>
+    	<div data-role="content">
+		<ul data-role="listview" data-theme="a">
+			<li><a href="#">
+				<h3>Option 1</h3>
+				<p></p>
+				</a><a href="#professionals" data-rel="popup" data-position-to="window" data-transition="pop"></a>
+			</li>
+			<li><a href="#">
+				<h3>Option 2</h3>
+				<p></p>
+				</a><a href="#questionaires" data-rel="popup" data-position-to="window" data-transition="pop"></a>
+			</li>
+			<li><a href="#">
+				<h3>Option 3</h3>
+				<p></p>
+				</a><a href="#treatment" data-rel="popup" data-position-to="window" data-transition="pop"></a>
+			</li>			
+			<li><a href="#">
+				<h3>Option 4</h3>
+				<p></p>
+				</a><a href="#treatment" data-rel="popup" data-position-to="window" data-transition="pop"></a>
+			</li>			
+			<li><a href="#">
+				<h3>Option 5</h3>
+				<p></p>
+				</a><a href="#treatment" data-rel="popup" data-position-to="window" data-transition="pop"></a>
+			</li>												
+		</ul>		
+    	</div>
+  	
+        <div data-role="footer" data-position="fixed">
+    		<nav data-role="navbar">
+              <ul>
+                  <li><a href="home" data-icon="home">Home</a></li>
+                  <li><a href="help" data-icon="star">Help</a></li>
+                  <li><a href="#" data-icon="info">Information</a></li>		
+              </ul>
+        	</nav>
+    	</div>
+	</div><!-- /page -->			
+  </body>
+</html>
